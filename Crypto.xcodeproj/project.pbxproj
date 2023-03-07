@@ -19,6 +19,7 @@
 		DF957D0329B75262009E4DE4 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF957D0229B75262009E4DE4 /* CoinRowView.swift */; };
 		DF957D0529B752C0009E4DE4 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF957D0429B752C0009E4DE4 /* PreviewProvider.swift */; };
 		DF957D0729B755E5009E4DE4 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF957D0629B755E5009E4DE4 /* Double.swift */; };
+		DF957D0929B75CF3009E4DE4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF957D0829B75CF3009E4DE4 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DF957D0229B75262009E4DE4 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		DF957D0429B752C0009E4DE4 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		DF957D0629B755E5009E4DE4 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		DF957D0829B75CF3009E4DE4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		DF957CF629B4A90C009E4DE4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DF957D0829B75CF3009E4DE4 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF957D0329B75262009E4DE4 /* CoinRowView.swift in Sources */,
+				DF957D0929B75CF3009E4DE4 /* HomeViewModel.swift in Sources */,
 				DF957CE129B4A4FC009E4DE4 /* ContentView.swift in Sources */,
 				DF957CF829B4A92C009E4DE4 /* HomeView.swift in Sources */,
 				DF957CDF29B4A4FC009E4DE4 /* CryptoApp.swift in Sources */,
